@@ -1,0 +1,1241 @@
+body{
+  display: flex;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+  background-image: url("./background-stars.svg");
+  background-repeat: no-repeat;
+  background-color:#070724;
+}
+header{
+  width: 100%;
+}
+.header-div{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 16px;
+  margin-left: 24px;
+  margin-right: 16px;
+  align-items: center;
+  
+}
+.logo{
+  font-family: 'Antonio';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -1.05px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 16px;
+}
+.hamburger{
+  cursor: pointer;
+  margin-top: 17px;
+}
+.bar{
+  width: 25px;
+  background-color: white;
+  height: 3px;
+  -webkit-transition: all 0.3s  ease-in-out;
+  transition: all 0.3s ease-in-out;
+  display: block;
+  margin-bottom:5px;
+}
+.rect-header{
+  width: 100%;
+  height: 1px;
+  background-color: white;
+  margin-top: 16px;
+  margin-bottom: 44px;
+}
+.mercuty{
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #DEF4FC;
+  margin-right: 25px;
+}
+ul{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.nav-menu{
+  display: flex;
+  flex-direction: column;
+  margin-left: 24px;
+  gap: 40px;
+}
+li{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav-link{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  width: 100%;
+}
+.a-mercury{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+/* identical to box height, or 167% */
+  text-align: center;
+  letter-spacing: 1.36364px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-right: 179px;
+}
+.arrow-mercury{
+  width: 8px;
+  height: 10px;
+  cursor: pointer;
+}
+.arrow-mercury:hover{
+  rotate: 90deg;
+  transition: 0.3s;
+}
+.venus-ball{
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #F7CC7F;
+  margin-right: 25px;
+}
+.a-venus{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+/* identical to box height, or 167% */
+  text-align: center;
+  letter-spacing: 1.36364px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-right: 207px;
+}
+.arrow-venus{
+  width: 8px;
+  height: 10px;
+  cursor: pointer;
+}
+.arrow-venus:hover{
+  rotate: 90deg;
+  transition: 0.3s;
+}
+.li-rect{
+  width: 327px;
+  height: 0.1px;
+  background-color: white;
+}
+.earth-ball{
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #545BFE;
+  margin-right: 25px;
+}
+.a-earth{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+/* identical to box height, or 167% */
+  text-align: center;
+  letter-spacing: 1.36364px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-right: 207px;
+}
+.arrow-earth{
+  width: 8px;
+  height: 10px;
+  cursor: pointer;
+}
+.mars-ball{
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #FF6A45;
+  margin-right: 25px;
+}
+.a-mars{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+/* identical to box height, or 167% */
+  text-align: center;
+  letter-spacing: 1.36364px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-right: 207px;
+  width: 62px;
+}
+.arrow-mars{
+  width: 8px;
+  height: 10px;
+  cursor: pointer;
+}
+.jupiter-ball{
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #ECAD7A;
+  margin-right: 25px;
+}
+.a-jupiter{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+/* identical to box height, or 167% */
+  text-align: center;
+  letter-spacing: 1.36364px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-right: 207px;
+  width: 62px;
+}
+.arrow-jupiter{
+  width: 8px;
+  height: 10px;
+  cursor: pointer;
+}
+.saturn-ball{
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #FCCB6B;
+  margin-right: 25px;
+}
+.a-saturn{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+/* identical to box height, or 167% */
+  text-align: center;
+  letter-spacing: 1.36364px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-right: 207px;
+  width: 62px;
+}
+.arrow-saturn{
+  width: 8px;
+  height: 10px;
+  cursor: pointer;
+}
+.uranus-ball{
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color: #65F0D5;
+  margin-right: 25px;
+}
+.a-uranus{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+/* identical to box height, or 167% */
+  text-align: center;
+  letter-spacing: 1.36364px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-right: 207px;
+  width: 62px;
+}
+.arrow-uranus{
+  width: 8px;
+  height: 10px;
+  cursor: pointer;
+}
+.neptune-ball{
+  width: 20px;
+  height: 20px;
+  border-radius: 10px;
+  background-color:#497EFA;
+  margin-right: 25px;
+}
+.a-neptune{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 25px;
+/* identical to box height, or 167% */
+  text-align: center;
+  letter-spacing: 1.36364px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-right: 207px;
+  width: 62px;
+ 
+}
+.arrow-neptune{
+  width: 8px;
+  height: 10px;
+  cursor: pointer;
+}
+.nav-link-last{
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 82px;
+}
+/* mercuris info */
+.real-mercury{
+  display: none;
+}
+.mercury-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.select-div{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  gap: 43px;
+  margin-bottom: 20px;
+}
+.overview-mercury{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 10px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1.92857px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.overview-mercury:hover{
+  color: #497EFA;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.structure-mercury{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 10px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1.92857px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.structure-mercury:hover{
+  color: #497EFA;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.surface-mercury{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 10px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1.92857px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.surface-mercury:hover{
+  color: #497EFA;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.mercury-planet-mobile{
+  width: 111px;
+  height: 111px;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 95px;
+}
+.mercury-planet-mobile-interal{
+  width: 111px;
+  height: 111px;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 95px;
+  display: block;
+
+}
+.main-mercury{
+  font-family: 'Antonio';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 52px;
+  /* identical to box height */
+  text-align: center;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-top: 98px;
+}
+.mercury-info-p{
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 22px;
+  text-align: center;
+  width: 327px;
+  color:grey;
+  margin-top: 16px;
+}
+.mercury-structure-p{
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 22px;
+  text-align: center;
+  width: 327px;
+  color:grey;
+  margin-top: 16px;
+  display: none;
+}
+.geology-mercury-mobile{
+  width: 111px;
+  height: 111px;
+  margin-left: auto;
+  margin-right: auto; 
+  margin-top: 95px;
+  display: block;
+}
+.surface-p{
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 22px;
+  text-align: center;
+  width: 327px;
+  color:grey;
+  margin-top: 16px;
+}
+.sourc{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 25px;
+/* identical to box height, or 208% */
+  text-decoration-line: underline;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin-top: 32px;
+}
+.wikipedia{
+  color: #FFFFFF;
+}
+.numbers-and-info{
+  display: flex;
+  flex-direction: column;
+  margin-top: 28px;
+  gap: 11px;
+}
+.rotait-time{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 327px;
+  height: 48px;
+  mix-blend-mode: normal;
+  border: 1px solid #FFFFFF;
+  align-items: center;
+}
+.rotation{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 11px;
+  line-height: 16px;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.727273px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  mix-blend-mode: normal;
+  opacity: 0.5;
+  margin-left: 24px;  
+}
+.days{
+  font-family: 'Antonio';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 26px;
+  /* identical to box height */
+  text-align: right;
+  letter-spacing: -0.75px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  margin-right: 24px;
+}
+/* venus info */
+.real-venus{
+  display: none;
+}
+.venus-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
+}
+.overview-venus{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 10px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1.92857px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.overview-venus:hover{
+  color: #EDA249;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.structure-venus{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 10px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1.92857px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.structure-venus:hover{
+  color: #EDA249;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+.surface-venus{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 10px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1.92857px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.surface-venus:hover{
+  color: #EDA249;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.venus-planeta-mobile{
+  width: 111px;
+  height: 111px;
+  margin-top: 85px;
+}
+.venus-interal-mobile{
+  width: 111px;
+  height: 111px;
+  margin-top: 85px;
+}
+.venus-geology-mobile{
+  width: 111px;
+  height: 111px;
+  margin-top: 85px;
+}
+.overview-p-venus{
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 22px;
+  text-align: center;
+  width: 327px;
+  color:grey;
+  margin-top: 16px;
+}
+.structure-p-venus{
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 22px;
+  text-align: center;
+  width: 327px;
+  color:grey;
+  margin-top: 16px;
+}
+.surface-p-venus{
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 22px;
+  text-align: center;
+  width: 327px;
+  color:grey;
+  margin-top: 16px;
+}
+/* earth-info */
+.real-earth{
+  display: none;
+}
+.earth-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.overview-earth{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 10px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1.92857px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.overview-earth:hover{
+  color: #6D2ED5;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.structure-earth{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 10px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1.92857px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.structure-earth:hover{
+  color: #6D2ED5;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+.surface-earth{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 10px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1.92857px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.surface-earth:hover{
+  color: #6D2ED5;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.overview-p-earth{
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 22px;
+  text-align: center;
+  width: 327px;
+  color:grey;
+  margin-top: 16px;
+  
+}
+.structure-p-earth{
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 22px;
+  text-align: center;
+  width: 327px;
+  color:grey;
+  margin-top: 16px;
+}
+.surface-p-earth{
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 22px;
+  text-align: center;
+  width: 327px;
+  color:grey;
+  margin-top: 16px;
+}
+.earth-interal-mobile{
+  width: 173px;
+  height: 173px;
+  margin-top: 64px;
+}
+.earth-geology-mobile{
+  width: 173px;
+  height: 173px;
+  margin-top: 64px;
+}
+.earth-planeta-mobile{
+  width: 173px;
+  height: 173px;
+  margin-top: 64px;
+}
+
+/* mars css */
+.real-mars{
+  display: none;
+}
+.mars-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.overview-mars{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 10px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1.92857px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.overview-mars:hover{
+  color: #D14C32;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.structure-mars{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 10px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1.92857px;
+  text-transform: uppercase;
+  color: #FFFFFF; 
+}
+.structure-mars:hover{
+  color: #D14C32;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+.surface-mars{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 10px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1.92857px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.surface-mars:hover{
+  color: #D14C32;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.mars-planeta-mobile{
+  width: 129px;
+  height: 129px;
+  margin-top: 87px;
+}
+.mars-interal-mobile{
+  width: 129px;
+  height: 129px;
+  margin-top: 87px;
+}
+.mars-geology-mobile{
+  width: 129px;
+  height: 129px;
+  margin-top: 87px;
+}
+.overview-p-mars{
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 22px;
+  text-align: center;
+  width: 327px;
+  color:grey;
+  margin-top: 16px;
+}
+.structure-p-mars{
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 22px;
+  text-align: center;
+  width: 327px;
+  color:grey;
+  margin-top: 16px;
+}
+.surface-p-mars{
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 22px;
+  text-align: center;
+  width: 327px;
+  color:grey;
+  margin-top: 16px;
+}
+
+/* jupiter css */
+.real-jupiter{
+  display: none;
+}
+.jupiter-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.overview-jupiter{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 10px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1.92857px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.overview-jupiter:hover{
+  color: #D83A34;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.structure-jupiter{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 10px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1.92857px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.structure-jupiter:hover{
+  color: #D83A34;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.surface-jupiter{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 10px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1.92857px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.surface-jupiter:hover{
+  color: #D83A34;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.jupiter-planeta-mobile{
+  width: 224px;
+  height: 224px;
+  margin-top: 39px;
+}
+.jupiter-interal-mobile{
+  width: 224px;
+  height: 224px;
+  margin-top: 39px;
+}
+.jupiter-geology-mobile{
+  width: 224px;
+  height: 224px;
+  margin-top: 39px;
+}
+.overview-p-jupiter{
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 22px;
+  text-align: center;
+  width: 327px;
+  color:grey;
+  margin-top: 16px;
+}
+.structure-p-jupiter{
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 22px;
+  text-align: center;
+  width: 327px;
+  color:grey;
+  margin-top: 16px;
+}
+.surface-p-jupiter{
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 22px;
+  text-align: center;
+  width: 327px;
+  color:grey;
+  margin-top: 16px;
+}
+/* saturn css */
+.real-saturn{
+  display: none;
+}
+.saturn-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.overview-saturn{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 10px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1.92857px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.overview-saturn:hover{
+  color: #CD5120;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.structure-saturn{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 10px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1.92857px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.structure-saturn:hover{
+  color: #CD5120;
+  cursor: pointer;
+  transition: 0.3s;
+  
+}
+.surface-saturn{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 10px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1.92857px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.surface-saturn:hover{
+  color: #CD5120;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.saturn-planeta-mobile{
+  width: 256px;
+  height: 256px;
+  margin-top: 24px;
+}
+.saturn-interal-mobile{
+  width: 256px;
+  height: 256px;
+  margin-top: 24px;
+}
+.saturn-geology-mobile{
+  width: 256px;
+  height: 256px;
+  margin-top: 24px;
+}
+.overview-p-saturn{
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 22px;
+  text-align: center;
+  width: 327px;
+  color:grey;
+  margin-top: 16px;
+}
+.structure-p-saturn{
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 22px;
+  text-align: center;
+  width: 327px;
+  color:grey;
+  margin-top: 16px;
+}
+.surface-p-saturn{
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 22px;
+  text-align: center;
+  width: 327px;
+  color:grey;
+  margin-top: 16px;
+}
+/* uranus css */
+.real-uranus{
+  display: none;
+}
+.uranus-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.overview-uranus{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 10px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1.92857px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.overview-uranus:hover{
+  color: #1EC1A2;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.structure-uranus{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 10px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1.92857px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.structure-uranus:hover{
+  color: #1EC1A2;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+.surface-uranus{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 10px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1.92857px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.surface-uranus:hover{
+  color: #1EC1A2;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.uranus-planeta-mobile{
+  width: 176px;
+  height: 176px;
+  margin-top: 64px;
+}
+.uranus-interal-mobile{
+  width: 176px;
+  height: 176px;
+  margin-top: 64px;
+}
+.uranus-geology-mobile{
+  width: 176px;
+  height: 176px;
+  margin-top: 64px;
+}
+.overview-p-uranus{
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 22px;
+  text-align: center;
+  width: 327px;
+  color:grey;
+  margin-top: 16px;
+}
+.structure-p-uranus{
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 22px;
+  text-align: center;
+  width: 327px;
+  color:grey;
+  margin-top: 16px;
+}
+.surface-p-uranus{
+  font-family: Spartan;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 22px;
+  text-align: center;
+  width: 327px;
+  color:grey;
+  margin-top: 16px;
+}
+/* neptune css */
+.real-neptune{
+  display: none;
+}
+.neptune-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.overview-neptune{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 10px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1.92857px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.overview-neptune:hover{
+  color: #2D68F0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.structure-neptune{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 10px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1.92857px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.structure-neptune:hover{
+  color: #2D68F0;
+  cursor: pointer;
+  transition: 0.3s;
+
+}
+.surface-neptune{
+  font-family: 'Spartan';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 9px;
+  line-height: 10px;
+  /* identical to box height */
+  text-align: center;
+  letter-spacing: 1.92857px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.surface-neptune:hover{
+  color: #2D68F0;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.neptune-planeta-mobile{
+  width: 173px;
+  height: 173px;
+  margin-top: 64px;
+}
+.neptune-interal-mobile{
+  width: 173px;
+  height: 173px;
+  margin-top: 64px;
+}
+.neptune-geology-mobile{
+  width: 173px;
+  height: 173px;
+  margin-top: 64px;
+}
