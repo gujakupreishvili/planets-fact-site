@@ -656,7 +656,6 @@
       overviewMercury.style.color="white";
       structureMercury.style.color="white";
       surfaceV.style.color="white";
-
   })
   structuredivMercury.addEventListener("click",() =>{
       structureMercury.style.color="white";
@@ -747,8 +746,6 @@
     overviewVenus.style.color="white";
     structureV.style.color="white";
     surfaceV.style.color="white";
-    
-
   })
   structuredivVenus.addEventListener("click",()=>{
     overviewdivVenus.style.backgroundColor='#4b4b4b';
@@ -766,7 +763,6 @@
     overviewVenus.style.color="white";
     structureV.style.color="white";
     surfaceV.style.color="white";
-
   })
   surfacedivVenus.addEventListener("click",()=>{
     overviewdivVenus.style.backgroundColor='#4b4b4b';
